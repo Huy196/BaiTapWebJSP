@@ -9,11 +9,9 @@
 <html>
 <head>
     <title>Login</title>
-    <link href="input.css" rel="stylesheet" type="text/css" >
-
 </head>
 <body>
-<form action="login" method="post">
+<form action="Tuan_1/login" method="post">
     <header>Name : </header>
     <label>
         <input class="name"  type="text" name="name" placeholder="Nhập tên.......">

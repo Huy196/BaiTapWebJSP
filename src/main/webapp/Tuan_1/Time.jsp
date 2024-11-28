@@ -11,10 +11,11 @@
     <title>JSP - Hello World</title>
 </head>
 <body>
-<h1><%= "Xem thời gian!" %>
-</h1>
-<br/>
-<a href="time">Xem</a>
-
+<form action="time" method="get">
+    <h1><%= "Xem thời gian!" %>
+    </h1>
+    <br/>
+    <button type="submit">Xem</button>
+</form>
 </body>
 </html>

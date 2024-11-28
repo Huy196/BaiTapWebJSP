@@ -1,4 +1,4 @@
-package com.example.baitapwebjsp;
+package com.example.baitapwebjsp.Tuan_1;
 
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -8,7 +8,7 @@ import java.io.IOException;
 import java.io.PrintWriter;
 import java.util.Date;
 
-@WebServlet(name = "TimeServlet", value = "/time")
+@WebServlet(name = "TimeServlet", value = "/Tuan_1/time")
 public class TimeServlet extends HttpServlet {
     public void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException {
         response.setContentType("text/html");

@@ -1,4 +1,4 @@
-package com.example.baitapwebjsp;
+package com.example.baitapwebjsp.Tuan_1;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;

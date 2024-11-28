@@ -1,4 +1,4 @@
-package com.example.baitapwebjsp;
+package com.example.baitapwebjsp.Tuan_1;
 
 import java.io.*;
 import javax.servlet.http.*;

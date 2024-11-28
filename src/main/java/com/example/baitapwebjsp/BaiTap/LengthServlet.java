@@ -1,4 +1,4 @@
-package com.example.baitapwebjsp;
+package com.example.baitapwebjsp.BaiTap;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -8,16 +8,16 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.io.PrintWriter;
 
-@WebServlet(name = "CurrencyConverterServlet" , value = "/convert")
-public class CurrencyConverterServlet extends HttpServlet {
+@WebServlet(name = "LengthServlet",value = "/length")
+public class LengthServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        float usd = Float.parseFloat(req.getParameter("usd"));
-        float vnd = Float.parseFloat(req.getParameter("vnd"));
+        String text = req.getParameter("text");
 
+        resp.setContentType("text/html,charset=utf-8");
         PrintWriter printWriter = resp.getWriter();
-        printWriter.println("<html>");
-        printWriter.print("<h1>Thanh tien : <h1> " + usd * vnd + " vnd");
-        printWriter.println("</html>");
+        printWriter.write("<html>");
+        printWriter.write("Do dai cua : " + text + " la : " + text.length());
+        printWriter.write("</html>");
     }
 }
