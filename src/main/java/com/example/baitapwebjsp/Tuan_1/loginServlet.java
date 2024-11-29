@@ -16,9 +16,6 @@ public class loginServlet extends HttpServlet {
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         String name = req.getParameter("name");
         String pass = req.getParameter("pass");
-//
-        PrintWriter printWriter = resp.getWriter();
-//        printWriter.println("<html>");
 
         if ("admin".equalsIgnoreCase(name) && "admin".equalsIgnoreCase(pass)){
            req.setAttribute("loginTime",new Date());
