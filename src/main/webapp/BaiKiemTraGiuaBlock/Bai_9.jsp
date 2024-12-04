@@ -24,7 +24,7 @@
     request.setAttribute("tours", tours);
 %>
 <div >
-    <h1>Hệ thống quản lý lớp học</h1>
+    <h1>Danh sách tour du lịch</h1>
     <table style="width: 600px ; border: 1px solid black">
         <tr>
             <th>Tên</th>
