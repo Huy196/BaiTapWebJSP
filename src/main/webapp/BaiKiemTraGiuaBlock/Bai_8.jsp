@@ -24,7 +24,7 @@
     request.setAttribute("shopOnlines", shopOnlines);
 %>
 <div >
-    <h1>Hệ thống quản lý lớp học</h1>
+    <h1> Quản lý cửa hàng trực tuyến</h1>
     <table style="width: 600px ; border: 1px solid black">
         <tr>
             <th>Sản Phẩm</th>
