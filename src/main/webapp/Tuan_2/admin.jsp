@@ -27,6 +27,14 @@
     <form action="${pageContext.request.contextPath}/Tuan_1/English.jsp" method="get">
         <button type="submit">English</button>
     </form>
-
+    <form action="${pageContext.request.contextPath}/Tuan_2/list_user/List_User.jsp" method="get">
+        <button type="submit">Danh sách khách hàng</button>
+    </form>
+    <form action="${pageContext.request.contextPath}/Tuan_2/calculator/Calculator.jsp" method="get">
+        <button type="submit">Máy Tính</button>
+    </form>
+    <form action="${pageContext.request.contextPath}/Tuan_2/USD/USD_VND.jsp" method="get">
+        <button type="submit">Chuyển đổi tiền tệ</button>
+    </form>
 </body>
 </html>

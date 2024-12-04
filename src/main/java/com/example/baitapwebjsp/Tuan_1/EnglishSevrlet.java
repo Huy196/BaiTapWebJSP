@@ -9,7 +9,7 @@ import java.io.IOException;
 import java.util.HashMap;
 import java.util.Map;
 
-@WebServlet(name = "EnglishSevrlet", value = "/english")
+@WebServlet(name = "EnglishSevrlet", value = "/Tuan_1/english")
 public class EnglishSevrlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
